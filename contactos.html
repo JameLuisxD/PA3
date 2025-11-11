@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contactos - Inca Kola</title>
+    <link rel="stylesheet" href="estilos.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    </head>
+<body>
+
+    <header class="header-fijo">
+        <div class="container">
+            <a href="index.html" class="logo">Inca Kola</a>
+            <nav>
+                <ul>
+                    <li><a href="index.html">
+                        <i class="fa-solid fa-house"></i> Inicio
+                    </a></li>
+                    <li><a href="nosotros.html"> 
+                        <i class="fa-solid fa-users"></i>
+                        Nosotros
+                    </a></li>
+                    <li><a href="blog.html">
+                        <i class="fa-solid fa-feather-pen"></i>
+                        Blog
+                    </a></li>
+                    <li><a href="galeria.html">
+                        <i class="fa-solid fa-image"></i>
+                        Galería
+                    </a></li>
+                    <li><a href="videos.html">
+                        <i class="fa-solid fa-video"></i>
+                        Videos
+                    </a></li>
+                    <li><a href="contactos.html"> 
+                        <i class="fa-solid fa-envelope"></i>
+                        Contactos
+                    </a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main class="main-general main-contactos">
+        <div class="container">
+            <h1>Contáctanos</h1>
+
+            <div class="contactos-grid">
+                
+                <div class="info-col">
+                    
+                    <h2>Información de Contacto</h2>
+                    <table class="tabla-contactos">
+                        <tr>
+                            <th>Dirección:</th>
+                            <td>Av. El Sol 123, Lima, Perú</td>
+                        </tr>
+                        <tr>
+                            <th>Teléfonos:</th>
+                            <td>(01) 555-1234 / 987 654 321</td>
+                        </tr>
+                        <tr>
+                            <th>Email:</th>
+                            <td>info@incakola.com.pe</td>
+                        </tr>
+                        <tr>
+                            <th>Atención:</th>
+                            <td>Lunes a Viernes de 9am a 6pm</td>
+                        </tr>
+                    </table>
+
+                    <h2>Nuestra Ubicación</h2>
+                    <div class="video-responsive-wrapper">
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3901.9360773807757!2d-77.0302534259174!3d-12.047582541940118!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9105c8b5d19b3885%3A0x19f5653b68325785!2sPlaza%20San%20Mart%C3%ADn!5e0!3m2!1ses-419!2spe!4v1731365863262!5m2!1ses-419!2spe" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    </div>
+                </div>
+
+                <div class="form-col">
+                    
+                    <h2>Déjanos tu comentario</h2>
+                    <form class="formulario-contactos" action="#">
+                        <label for="nombre">Nombre y Apellido</label>
+                        <input type="text" id="nombre" name="nombre">
+
+                        <label for="celular">Celular</label>
+                        <input type="tel" id="celular" name="celular">
+
+                        <label for="email">Correo electrónico*</label>
+                        <input type="email" id="email" name="email" required> <label for="ruc">RUC - Empresa (Opcional)</label>
+                        <input type="text" id="ruc" name="ruc">
+
+                        <label for="mensaje">Mensaje</label>
+                        <textarea id="mensaje" name="mensaje" rows="6"></textarea>
+
+                        <button type="submit" class="btn-enviar">ENVIAR</button>
+                    </form>
+                </div>
+
+            </div> </div>
+    </main>
+
+    <footer>
+        <p>Diseño y Desarrollo Web - 2025</p>
+    </footer>
+
+</body>
+</html>
